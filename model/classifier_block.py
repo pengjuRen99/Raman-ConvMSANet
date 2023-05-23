@@ -9,8 +9,8 @@ class LNGAPBlock(nn.Module):
         super().__init__()
         self.ln = nn.BatchNorm1d(in_features)
         self.relu = nn.ReLU()
-        self.gap = nn.AdaptiveAvgPool1d(1)
-        self.dense = nn.Linear(in_features, num_classes)
+        self.gap = nn.AdaptiveAvgPool1d(7)
+        self.dense = nn.Linear(7 * in_features, num_classes)
 
     def forward(self, x):
         x = self.ln(x)
