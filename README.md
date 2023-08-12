@@ -1,5 +1,6 @@
 # Raman-ConvMSANet
 This repo presents a high-accuracy Raman spectroscopy network that combines convolution and multi-head self-attention for the identification of biological species based on their blood and semen samples.
+This repository provides the implementation for our paper [Raman ConvMSANet: A High-Accuracy Neural Network for Raman Spectroscopy Blood and Semen Identification.](https://doi.org/10.1021/acsomega.3c03572)
 
 # Requirements
 The code in this repo has been tested with the following software versions:
